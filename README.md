@@ -4,7 +4,7 @@
 
 GeoLaux is a challenging plane geometry dataset with 2,186 problems. It demonstrates three key advantages over comparable datasets: **(1) Long Steps:** With solutions reaching up to 24 steps, far exceeding previous benchmarks' maximum of 11 steps, GeoLaux poses significant challenges for models. **(2)** **Unique Auxiliary Line Annotation:** To the best of our knowledge, GeoLaux is the first and only benchmark to provide complete, explicit annotations for auxiliary line construction methods in geometry problems, addressing a critical gap in prior work. **(3) Integrated Calculation and Proving Problems:** GeoLaux comprises 1,418 calculation and 768 proving problems.
 
-<img src="assets/Step_Number_count.png" alt="image-20250804211123227" style="zoom: 40%;" /><img src="assets/Auxiliary_distribution.png" alt="image-20250804211040448" style="zoom:33%;" />
+<img src="assets/dataset_distribution.jpg" alt="image-20250804211123227" style="zoom: 100%;" />
 
 <div align="center">
 <p>The step length and auxiliary lines distribution of GeoLaux</p>
@@ -14,7 +14,7 @@ we have placed GeoLaux-mini in the "data" folder, which contains 330 questions u
 
 ## 🚀 Evaluation Pipeline
 
-![five_dimension_framework](assets\five_dimension_framework.png)
+![five_dimension_framework](assets/five_dimension_framework.png)
 
 <div align="center">
 <p>Five-dimension evaluation framework of GeoLaux. Given golden answer and solution from dataset, evaluator assesses MLLM outputs for answer correctness, step-by-step scoring, and error analysis, enabling framework's comprehensive evaluation across: ① answer correctness, ② process correctness, ③ process quality, ④ auxiliary line impact, and ⑤ error type.</p>
@@ -322,6 +322,10 @@ ACS = Answer Correctness Score, PCS = Process Correctness Score, PQS = Process Q
 1. **MLLMs perform poorly on long-step reasoning:** All models exhibit substantial performance degradation as step increases. Nine models shows performance drop over 50%  from short-step to ultra-long-step problems, with some exceeding 90% or even reaching 100%.
 2. **MLLMs exhibit laziness in proving:** Compared to calculation problems, models show higher answer correctness scores but lower process correctness scores on proving problems, indicating they often "cheat" by leveraging given conclusions while neglecting reasoning steps.
 3. **MLLMs Struggle with Auxiliary Line Construction:** MLLMs fail to construct complex auxiliary lines when solving problems. Following auxiliary line prompts, nearly all models demonstrate increased performance, indicating that enhancing models' awareness and capability in auxiliary line construction can significantly improve their geometry reasoning performance.
+
+## 🔖 License
+
+Our dataset and code are distributed under the [MIT](LICENSE) license.
 
 ## 📖 Citation
 

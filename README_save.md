@@ -4,7 +4,7 @@
 
 GeoLaux is a challenging plane geometry dataset with 2,186 problems. It demonstrates three key advantages over comparable datasets: **(1) Long Steps:** With solutions reaching up to 24 steps, far exceeding previous benchmarks' maximum of 11 steps, GeoLaux poses significant challenges for models. **(2)** **Unique Auxiliary Line Annotation:** To the best of our knowledge, GeoLaux is the first and only benchmark to provide complete, explicit annotations for auxiliary line construction methods in geometry problems, addressing a critical gap in prior work. **(3) Integrated Calculation and Proving Problems:** GeoLaux comprises 1,418 calculation and 768 proving problems.
 
-<img src="D:/ML/GeoLaux-torelease/assets/Step_Number_count.png" alt="image-20250804211123227" style="zoom: 40%;" /><img src="D:/ML/GeoLaux-torelease/assets/Auxiliary_distribution.png" alt="image-20250804211040448" style="zoom:33%;" />
+<img src="assets/Step_Number_count.png" alt="image-20250804211123227" style="zoom: 40%;" /><img src="assets/Auxiliary_distribution.png" alt="image-20250804211040448" style="zoom:33%;" />
 
 <div align="center">
 <p>The step length and auxiliary lines distribution of GeoLaux</p>
@@ -14,7 +14,7 @@ we have placed GeoLaux-mini in the "data" folder, which contains 330 questions u
 
 ## 🚀 Evaluation Pipeline
 
-![five_dimension_framework](D:\ML\GeoLaux-torelease\assets\five_dimension_framework.png)
+![five_dimension_framework](assets\five_dimension_framework.png)
 
 <div align="center">
 <p>Five-dimension evaluation framework of GeoLaux. Given golden answer and solution from dataset, evaluator assesses MLLM outputs for answer correctness, step-by-step scoring, and error analysis, enabling framework's comprehensive evaluation across: ① answer correctness, ② process correctness, ③ process quality, ④ auxiliary line impact, and ⑤ error type.</p>

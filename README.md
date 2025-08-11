@@ -1,4 +1,8 @@
-# GeoLaux: A Benchmark for Evaluating MLLMs' Geometry Performance on Long-Step Problems Requiring Auxiliary Lines
+## GeoLaux: A Benchmark for Evaluating MLLMs' Geometry Performance on Long-Step Problems Requiring Auxiliary Lines
+
+## 💥 News 💥
+
+**[2024.08.08]** Our paper is now accessible at https://arxiv.org/abs/2508.06226.
 
 ## 📚GeoLaux Dataset
 
@@ -329,14 +333,17 @@ Our dataset and code are distributed under the [MIT](LICENSE) license.
 
 ## 📖 Citation
 
-If you find GeoLaux useful for your research and applications, please kindly cite using this BibTeX:
+If you find GeoLaux useful for your research and applications, please kindly cite our paper:
 
 ```bibtex
-@article{fu2025GeoLaux,
-    title = {GeoLaux: A Benchmark for Evaluating MLLMs' Geometry Performance on Long-Step Problems Requiring Auxiliary Lines},
-    author = {Yumeng Fu, Jiayin Zhu, Lingling Zhang, Bo Zhao, Shaoxuan Ma, Yushun Zhang, Yanrui Wu, Wenjun Wu},
-    journal = {},
-    year = {2025},
+@misc{fu2025geolauxbenchmarkevaluatingmllms,
+      title={GeoLaux: A Benchmark for Evaluating MLLMs' Geometry Performance on Long-Step Problems Requiring Auxiliary Lines}, 
+      author={Yumeng Fu and Jiayin Zhu and Lingling Zhang and Bo Zhao and Shaoxuan Ma and Yushun Zhang and Yanrui Wu and Wenjun Wu},
+      year={2025},
+      eprint={2508.06226},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2508.06226}, 
 }
 ```
 

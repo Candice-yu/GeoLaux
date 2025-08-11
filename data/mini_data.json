@@ -5680,7 +5680,7 @@
             "choices": [],
             "solution": "辅助线：延长DF交BE于点N。\n\n∵ △AEF为等腰直角三角形，四边形ABCD为正方形，\n∴ ∠BAD = ∠EAF = 90°，AE = AF，AB = AD，\n∴ △ABE ≌ △ADF (SAS)，\n∴ ∠ABE = ∠ADF，BE = DF，\n∵ ∠ABE + ∠AEB = 90°，\n∴ ∠ADF + ∠AEB = 90°，\n∴ ∠DNE = 180° - (∠ADF + ∠AEB) = 90°，\n∴ DN ⊥ BE，\n即DF ⊥ BE，\n故答案为：BE = DF，BE ⊥ DF；",
             "step_length": 7,
-            "steps_explanation": "：1)、从已知条件△AEF为等腰直角三角形，四边形ABCD为正方形，得到∠BAD = ∠EAF = 90°，AE = AF，AB = AD。2)、根据边角边(SAS)三角形全等判定定理，结合∠BAD = ∠EAF = 90°，AE = AF，AB = AD，得到△ABE ≌ △ADF。3)、由△ABE ≌ △ADF，得到对应角和对应边相等，即∠ABE = ∠ADF，BE = DF。4)、因为∠ABE + ∠AEB = 90°。5)、将∠ABE = ∠ADF代入∠ABE + ∠AEB = 90°，得到∠ADF + ∠AEB = 90°。6)、在△DNE中，根据三角形内角和定理，∠DNE = 180° - (∠ADF + ∠AEB) = 90°。7)、由∠DNE = 90°，得到DN ⊥ BE，即DF ⊥ BE。",
+            "steps_explanation": "1)、从已知条件△AEF为等腰直角三角形，四边形ABCD为正方形，得到∠BAD = ∠EAF = 90°，AE = AF，AB = AD。2)、根据边角边(SAS)三角形全等判定定理，结合∠BAD = ∠EAF = 90°，AE = AF，AB = AD，得到△ABE ≌ △ADF。3)、由△ABE ≌ △ADF，得到对应角和对应边相等，即∠ABE = ∠ADF，BE = DF。4)、因为∠ABE + ∠AEB = 90°。5)、将∠ABE = ∠ADF代入∠ABE + ∠AEB = 90°，得到∠ADF + ∠AEB = 90°。6)、在△DNE中，根据三角形内角和定理，∠DNE = 180° - (∠ADF + ∠AEB) = 90°。7)、由∠DNE = 90°，得到DN ⊥ BE，即DF ⊥ BE。",
             "original_image_name": "377_6",
             "auxiliary_text": "延长DF交BE于点N",
             "auxiliary_image_name": "377_6_1"

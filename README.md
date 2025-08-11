@@ -1,5 +1,5 @@
 <div align="center">
-<h1 style="font-size: 1.9em;">GeoLaux: A Benchmark for Evaluating MLLMs' Geometry Performance on Long-Step Problems Requiring Auxiliary Lines</h1>
+<h1 style="font-size: 1.7em;">GeoLaux: A Benchmark for Evaluating MLLMs' Geometry Performance on Long-Step Problems Requiring Auxiliary Lines</h1>
 </div>
 
 ## 💥 News 💥

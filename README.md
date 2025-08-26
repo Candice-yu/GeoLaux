@@ -336,14 +336,11 @@ Our dataset and code are distributed under the [MIT](LICENSE) license.
 If you find GeoLaux useful for your research and applications, please kindly cite our paper:
 
 ```bibtex
-@misc{fu2025geolauxbenchmarkevaluatingmllms,
-      title={GeoLaux: A Benchmark for Evaluating MLLMs' Geometry Performance on Long-Step Problems Requiring Auxiliary Lines}, 
-      author={Yumeng Fu and Jiayin Zhu and Lingling Zhang and Bo Zhao and Shaoxuan Ma and Yushun Zhang and Yanrui Wu and Wenjun Wu},
-      year={2025},
-      eprint={2508.06226},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2508.06226}, 
+@article{fu2025geolaux,
+  title={GeoLaux: A Benchmark for Evaluating MLLMs' Geometry Performance on Long-Step Problems Requiring Auxiliary Lines},
+  author={Fu, Yumeng and Zhu, Jiayin and Zhang, Lingling and Zhao, Bo and Ma, Shaoxuan and Zhang, Yushun and Wu, Yanrui and Wu, Wenjun},
+  journal={arXiv preprint arXiv:2508.06226},
+  year={2025}
 }
 ```
 

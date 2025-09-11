@@ -2,7 +2,7 @@
 
 ## 💥 News 💥
 
-**[2024.08.08]** Our paper is now accessible at https://arxiv.org/abs/2508.06226.
+**[2025.08.08]** Our paper is now accessible at https://arxiv.org/abs/2508.06226.
 
 ## 📚GeoLaux Dataset
 

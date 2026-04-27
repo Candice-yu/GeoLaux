@@ -1,7 +1,7 @@
 # GeoLaux: A Benchmark for Evaluating MLLMs' Geometry Performance on Long-Step Problems Requiring Auxiliary Lines
 
 ## 💥 News 💥
-**[2026.04.06]** GeoLaux is accepted by ACL2026-main!🎉
+**[2026.04.06]** 🎉 GeoLaux is accepted by **ACL2026-main**! 🎉
 
 **[2026.03.01]** We release the English version and the numerical perturbation version of GeoLaux-mini.
 
